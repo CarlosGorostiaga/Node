@@ -17,7 +17,7 @@
 
 const express = require("express")
 const cors = require("cors")
-const userRouters = require("./routers/profesional.routers")
+const userRouters = require("./routers/profesionales.routers")
 const { errorHandling } = require("./error/errorHandling")
 
 const app = express();
