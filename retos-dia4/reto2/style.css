@@ -1,0 +1,105 @@
+form {
+    width: 250px;
+    margin: 20px auto;
+    border-color: red;
+    background: #000;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+}
+
+.poke-card {
+    position: relative;
+    height: fit-content;
+    font-family: 'Roboto Mono', monospace;
+    max-width: 600px;
+    border-radius: 10px;
+    color: #3b4cca;
+    text-align: center;
+    padding: 10px;
+    margin: 0 auto;
+    background-color: #ffde00;
+    border: 5px solid #3b4cca;
+    text-shadow: 1px 1px 1px #000;
+}
+
+.poke-card::before {
+    content: '';
+    background: radial-gradient(#ffde00 33%, transparent 33%);
+    background-size: 3px 3px;
+    border-radius: 4px;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 20px;
+    top: 20px;
+    z-index: -1;
+}
+
+.img-container {
+    position: relative;
+    width: 250px;
+    margin: 10px auto;
+}
+
+.poke-stats div {
+    display: flex;
+    justify-content: space-between;
+    align-content: space-between;
+    padding: 2px;
+    font-size: 15px;
+}
+
+.poke-types div {
+    padding: 1px;
+    margin: 5px;
+    border-radius: 50px;
+    border: 4px dotted #3b4cca;
+}
+
+.poke-img {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    width: 250px;
+    
+    border-radius: 10%;
+    border:5px solid #3b4cca;
+}
+
+
+.flex-container1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    /* border: 5px solid red; */
+    text-align: center;
+
+    width: 100%;
+    height: 20vh;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #ffde00;
+}
+
+.img1{
+    flex-direction: row;
+    justify-content: center;
+    /* border: 5px solid black; */
+    width: 30%;
+    height: 100%;
+}
+
+
+
+
+/* ******************botonn de input ***************** */
+
